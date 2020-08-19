@@ -10,7 +10,6 @@ required.add_argument("-i", "--input", metavar = "[go-basic.obo]", help = "input
 required.add_argument("-o", "--output", metavar = "[stat.txt]", help = "output file format: tab delimited table", required = True)
 optional.add_argument("-h", "--help", action = "help", help = "help.info")
 args = parser.parse_args()
-genome_file = {}
 with open(args.input,"r") as fi:
     with open(args.output,"w") as fo:
         print("GO\tDescription\tLevel",file = fo)
