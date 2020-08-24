@@ -1,2 +1,2 @@
 # Bioinfo-Practice
-Bioinfomatic practices and usefull scripts
+Bioinfomatic practices and useful scripts
